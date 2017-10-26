@@ -1,0 +1,24 @@
+body {
+  background-color: darkred;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'arimo', sans-serif;
+}
+
+p {
+  font-size: 24px;
+  font-family: 'alex_brushregular', sans-serif;
+  color: white;
+  font-style: italic;
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
